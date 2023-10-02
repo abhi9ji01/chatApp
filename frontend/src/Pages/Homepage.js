@@ -4,7 +4,8 @@ import Signup from '../components/Authentication/Signup'
 import { Container,Box,Tabs, TabList, TabPanels, Tab, TabPanel } from '@chakra-ui/react'
 import { useHistory } from 'react-router-dom/cjs/react-router-dom.min'
 const Homepage = () => {
-
+// This is the home page 
+  const [bool,setBool]=useState(false);
   const history=useHistory();
   
   useEffect(()=>{
